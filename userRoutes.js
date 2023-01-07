@@ -12,7 +12,7 @@ router.route('/googlelogin').post(googleLogin2);
 router.route('/authentication').post(authenticateEmail);
 router.route('/forgotPassword').put(forgotPassword);
 router.route('/reset').put(resetEmail);
-router.route('/upload').post(upload.array('files'),  fileUpload, googleUpload);
+router.route('/upload').post(upload.array('files'),   googleUpload);
 
 
 module.exports = router;
