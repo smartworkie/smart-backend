@@ -17,19 +17,19 @@ Built with Node.js, Express, and MongoDB. Handles authentication, user managemen
 
 smart-backend/
 ├── uploads/              # Uploaded files storage
-├── http://AuthController.js     # Login, Register, Auth logic
-├── http://Google.js             # Google OAuth integration
-├── http://Uploader.js           # Multer upload config
-├── http://upload.js             # Upload route handler
-├── http://errorMiddleware.js    # Central error handling
-├── http://filehelper.js         # File utility functions
-├── http://generateToken.js      # JWT token generation
-├── http://mongo.js              # MongoDB connection
-├── http://user.js               # User model/schema
-├── http://userRoutes.js         # User API routes
-├── http://userfile.js           # User file operations
-├── http://index.js              # App entry point
-├── http://package.json
+├── AuthController.js     # Login, Register, Auth logic
+├── Google.js             # Google OAuth integration
+├── /Uploader.js           # Multer upload config
+├── /upload.js             # Upload route handler
+├── errorMiddleware.js    # Central error handling
+├── /filehelper.js         # File utility functions
+├── /generateToken.js      # JWT token generation
+├── //mongo.js              # MongoDB connection
+├── /user.js               # User model/schema
+├── userRoutes.js         # User API routes
+├── userfile.js           # User file operations
+├── //index.js              # App entry point
+├── //package.json
 └── .gitignore
 
 ⚙️ Setup & Installation
